@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+            background-color: rgb(158, 111, 111);
+        }
+        
+        .logo a img {
+            width: 200px;
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        
+        .menu-bar {
+            text-align: right;
+        }
+        
+        .menu-bar ul {
+            display: inline-flex;
+            list-style: none;
+            color: rgb(77, 92, 83);
+        }
+        
+        .menu-bar ul li {
+            list-style: none;
+            width: 150px;
+            margin: 15px;
+            padding: 15px;
+        }
+        
+        .menu-bar ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .menu-bar ul li a:hover {
+            color: black;
+        }
+        
+        .table {
+            width: 1000px;
+            margin-top: 200px;
+            margin-left: 750px;
+            table-layout: fixed;
+            font-family: Arial;
+            color: #fff;
+        }
+        
+        .table,
+        th,
+        td {
+            border-collapse: collapse;
+            padding: 10px;
+            font-size: 15px;
+        }
+        
+        th {
+            background: rgb(89, 78, 102);
+            padding: 30px;
+            text-transform: uppercase;
+        }
+        
+        td {
+            background: rgb(45, 32, 51);
+        }
+        
+        footer {
+            background: rgb(10, 0, 0);
+            margin-top: 300px;
+        }
+        
+        .footerbar {
+            margin: auto;
+            width: 25%;
+            color: white;
+            padding: 20px;
+        }
+        
+        .footerbar h3 {
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        
+        footer p {
+            color: white;
+        }
+        
+        .anchor {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <a href="#"><img src="foodpage/logo.png"></a>
+    </div>
+    <div class="menu-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Item list.html">Item list</a></li>
+            <li><a href=" About Item.html">About Item</a></li>
+            <li><a href="Contact us.html">Contact us</a></li>
+            <li>
+                <a href="Services.html">Services</a>
+            </li>
+        </ul>
+    </div>
+    <br/>
+    <div class="table">
+        <table border="5px">
+            <tr>
+                <th colspan=" 5 ">Item list</th>
+            </tr>
+            <tr>
+                <th>SL no</th>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Discount</th>
+                <th>Total Amount</th>
+            </tr>
+
+            <tr>
+                <td>O1</td>
+                <td>Four Cheese Pasta</td>
+                <td>120৳</td>
+                <td>5%</td>
+                <td>114৳</td>
+            </tr>
+            <tr>
+                <td>O2</td>
+                <td>Pasta Carbonara</td>
+                <td>170৳</td>
+                <td>10%</td>
+                <td>153৳</td>
+            </tr>
+            <tr>
+                <td>O3</td>
+                <td>Gnocchi with Tomato Sauce</td>
+                <td>140৳</td>
+                <td>4%</td>
+                <td>134৳</td>
+            </tr>
+            <tr>
+                <td>O4</td>
+                <td> Pasta Con Pomodoro E Basilico</td>
+                <td>200৳</td>
+                <td>20%</td>
+                <td>195৳</td>
+            </tr>
+            <tr>
+                <td>O5</td>
+                <td>Home-Style Baked Pasta</td>
+                <td>150৳</td>
+                <td>5%</td>
+                <td>142৳</td>
+            </tr>
+            <tr>
+                <td>O6</td>
+                <td>Ravioli with Coconut Milk & Lemongrass</td>
+                <td>300৳</td>
+                <td>30%</td>
+                <td>200৳</td>
+            </tr>
+            <tr>
+                <td>O7</td>
+                <td>Whole Wheat Pasta in Mushroom Sauce</td>
+                <td>120৳</td>
+                <td>4%</td>
+                <td>115৳</td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>Spaghetti Bolognese</td>
+                <td>80৳</td>
+                <td>2%</td>
+                <td>78৳</td>
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>Lasagna</td>
+                <td>60৳</td>
+                <td>0%</td>
+                <td>60৳</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Penne Ala Vodka</td>
+                <td>250৳</td>
+                <td>5%</td>
+                <td>230৳</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Chicken Pasta</td>
+                <td>300৳</td>
+                <td>20%</td>
+                <td>240৳</td>
+            </tr>
+        </table>
+    </div>
+    <br/>
+
+    <footer>
+        <div class="footerbar">
+            <h3>code opacity</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo iste corrupti doloribus odio sed adipisicing elit!</p>
+            <ul>
+                <li><a class="anchor" href="Member Log In">Member Log In</a></li>
+                <li>
+                    <a class="anchor" href="Features">Features</a>
+                </li>
+                <li>
+                    <a class="anchor" href="Events">Events</a>
+                </li>
+                <li>
+                    <a class="anchor" href="Contact">Contact</a>
+                </li>
+                <li>
+                    <a class="anchor" href="Advertising">Advertising</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>

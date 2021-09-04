@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+            background-color: rgb(180, 151, 151);
+        }
+        
+        .logo a img {
+            width: 200px;
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        
+        .menu-bar {
+            text-align: right;
+        }
+        
+        .menu-bar ul {
+            display: inline-flex;
+            list-style: none;
+            color: rgb(77, 92, 83);
+        }
+        
+        .menu-bar ul li {
+            list-style: none;
+            width: 150px;
+            margin: 15px;
+            padding: 15px;
+        }
+        
+        .menu-bar ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .menu-bar ul li a:hover {
+            color: black;
+        }
+        
+        .contact-title {
+            margin-top: 150px;
+            color: #fff;
+            text-transform: uppercase;
+            transition: all 4s ease-in-out;
+            text-align: center;
+        }
+        
+        .contact-title h1 {
+            font-size: 32px;
+            line-height: 10px;
+        }
+        
+        .contact-title h2 {
+            font-size: 16px;
+        }
+        
+        lable {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        input,
+        select,
+        textarea {
+            width: 90%;
+            padding: 10px 2%;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        
+        select {
+            width: 94%;
+        }
+        
+        textarea {
+            min-height: 100px;
+        }
+        
+        input[type=submit] {
+            background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+            width: 200px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        
+        input[type=submit]:hover {
+            background: linear-gradient(to right top, #0b5491, #2acee7);
+        }
+        
+        form {
+            margin-left: 80px;
+        }
+        
+        footer {
+            background: rgb(10, 0, 0);
+            margin-top: 250px;
+        }
+        
+        .footerbar {
+            margin: auto;
+            width: 25%;
+            color: white;
+            padding: 20px;
+        }
+        
+        .footerbar h3 {
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        
+        footer p {
+            color: white;
+        }
+        
+        .anchor {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <a href="#"><img src="foodpage/logo.png"></a>
+    </div>
+    <div class="menu-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Item list.html">Item list</a></li>
+            <li><a href=" About Item.html">About Item</a></li>
+            <li><a href="Contact us.html">Contact us</a></li>
+            <li><a href="Services.html">Services</a></li>
+        </ul>
+    </div>
+    <div class="contact-title">
+        <h1> Say Hello</h1>
+        <h2>We are always ready to serve you!</h2>
+    </div>
+    <form action="">
+        <lable>Your name</lable>
+        <input type="text" placeholder="Enter your name">
+        <lable>Your Email</lable>
+        <input type="email" placeholder="Enter your email">
+        <lable>Your Comments</lable>
+        <textarea name="" placeholder="Enter your comments"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+    <div class="search">
+        <form action="">
+            <input type="text" placeholder="Search Here">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+    <br/>
+    <br/>
+
+    <footer>
+        <div class="footerbar">
+            <h3>code opacity</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo iste corrupti doloribus odio sed adipisicing elit!</p>
+            <ul>
+                <li><a class="anchor" href="Member Log In">Member Log In</a></li>
+                <li>
+                    <a class="anchor" href="Features">Features</a>
+                </li>
+                <li>
+                    <a class="anchor" href="Events">Events</a>
+                </li>
+                <li>
+                    <a class="anchor" href="Contact">Contact</a>
+                </li>
+                <li>
+                    <a class="anchor" href="Advertising">Advertising</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
